@@ -2,16 +2,16 @@
 class Gofindup < Formula
   desc "Simple find up utility"
   homepage "https://github.com/ojizer/gofindup"
-  version "1.1.0"
+  version "1.1.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/ojizero/gofindup/releases/download/v1.1.0/gofindup_1.1.0_darwin_amd64.tar.gz"
-    sha256 "91b7e76e0f44246bc0f70271dc5e95be1c95ea0842a9f27bfdaceb99c61f58cb"
+    url "https://github.com/ojizero/gofindup/releases/download/v1.1.2/gofindup_1.1.2_darwin_amd64.tar.gz"
+    sha256 "ef3758b76fabb8a1596648bfa8d589989898a63dc5ecab07a9ec1fd36696472e"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/ojizero/gofindup/releases/download/v1.1.0/gofindup_1.1.0_linux_amd64.tar.gz"
-      sha256 "11ec4a7d285c0d7006bb017f501468800b446cfff397eb381ce15d0c71471c8a"
+      url "https://github.com/ojizero/gofindup/releases/download/v1.1.2/gofindup_1.1.2_linux_amd64.tar.gz"
+      sha256 "58e571a8872b7d78d2838b13ce22a55edd07a427161bd7ad3ee3941fa8cc1899"
     end
   end
 
