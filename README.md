@@ -1,7 +1,5 @@
 # Ojizero Tap
 
-![brew test-bot](https://github.com/ojizero/homebrew-tap/workflows/brew%20test-bot/badge.svg?branch=master)
-
 ## How do I install these formulae?
 `brew install ojizero/tap/<formula>`
 
