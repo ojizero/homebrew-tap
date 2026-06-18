@@ -19,7 +19,7 @@ cask "gather-beta" do
 
   auto_updates true
   conflicts_with cask: "gather"
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "GatherV2.app"
 
