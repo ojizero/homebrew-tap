@@ -26,6 +26,7 @@ brew install --cask <cask>
 
 | Cask | Description | Version |
 |------|-------------|---------|
+| block-buzz | Workspace for humans and AI agents | 0.4.26 |
 | session-manager-plugin | Plugin for AWS CLI to start and end sessions that connect to managed instances | 1.2.792.0 |
 
 ### Why is session-manager-plugin here?
