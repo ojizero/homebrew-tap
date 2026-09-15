@@ -11,7 +11,7 @@ cask "block-buzz" do
   homepage "https://github.com/block/buzz"
 
   conflicts_with cask: "buzz"
-  depends_on macos: :catalina
+  depends_on macos: :big_sur
 
   app "Buzz.app"
 
