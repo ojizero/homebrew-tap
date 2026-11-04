@@ -21,6 +21,7 @@ brew install --cask <cask>
 |---------|-------------|---------|
 | [gofindup](https://github.com/ojizero/gofindup) | Find up utility implemented in Go | 1.1.3 |
 | [gomakehelp](https://github.com/ojizero/gomakehelp) | Simple wrapper for Mmake's help functionality | 1.0.0 |
+| [maid](https://github.com/ojizero/maid) | Free disk space by cleaning caches and worktrees via each tool's own command | 0.0.2 |
 
 ## Available Casks
 
