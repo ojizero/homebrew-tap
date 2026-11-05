@@ -5,24 +5,24 @@ class Maid < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ojizero/maid/releases/download/v0.0.2/maid-aarch64-apple-darwin.tar.gz"
-      sha256 "cfc0852b7193490b1af047e85aeb3eae25eb7adba63d9f821d74c9bf494c274b"
+      url "https://github.com/ojizero/maid/releases/download/v0.0.3/maid-aarch64-apple-darwin.tar.gz"
+      sha256 "7470d16bf36f5c94445ab23a053e59c4ba5be4ee3e095a9cef272526c81997d9"
     end
     on_intel do
-      url "https://github.com/ojizero/maid/releases/download/v0.0.2/maid-x86_64-apple-darwin.tar.gz"
-      sha256 "481f3da7af4c7c937cd2945c36269a7f8c56c9c129061c3ed0e60fac14c77055"
+      url "https://github.com/ojizero/maid/releases/download/v0.0.3/maid-x86_64-apple-darwin.tar.gz"
+      sha256 "fb5b88c5af8071475a724dd0a3b52fa4e392b6ecdb3e0d8b137343b7ecef41a7"
     end
   end
 
   # The Linux binaries are static musl builds.
   on_linux do
     on_arm do
-      url "https://github.com/ojizero/maid/releases/download/v0.0.2/maid-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0129e87a00e3ad322d9e3c9a8b7368da212f1f36cceeb5c7b7a8b85f749b02ed"
+      url "https://github.com/ojizero/maid/releases/download/v0.0.3/maid-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "78f21a58b5e14a6b4972ec661bdf484842c71f0a6fd73bd21ec05835ae5e142b"
     end
     on_intel do
-      url "https://github.com/ojizero/maid/releases/download/v0.0.2/maid-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9d2ff04ac9b5c96b5f9374313bfa3d05236e981c7b0ae8eec057d65bdcfdd447"
+      url "https://github.com/ojizero/maid/releases/download/v0.0.3/maid-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "481ade2ef39ca0074d53b25965319dd49dddaaf47ad608072a13c2d0d456f70c"
     end
   end
 
